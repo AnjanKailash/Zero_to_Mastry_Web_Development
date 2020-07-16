@@ -52,3 +52,7 @@ footer {
     clear: both;
     text-align: center;
 }
+
+.boxmodel {
+    box-sizing: border-box;
+}

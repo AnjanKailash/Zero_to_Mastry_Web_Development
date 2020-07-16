@@ -1,0 +1,21 @@
+.container {
+    display: flex; /*activate flex box*/
+    flex-wrap: wrap; /*responsive flex - wraps up*/
+    justify-content: center;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    /* border-radius: 10px; */
+    width: 400px;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 450px;
+    margin: 10px;
+}

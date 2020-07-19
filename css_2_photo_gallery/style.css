@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .container {
     display: flex; /*activate flex box*/
     flex-wrap: wrap; /*responsive flex - wraps up*/
@@ -12,10 +16,19 @@ h1 {
     /* border-radius: 10px; */
     width: 400px;
     text-align: center;
+    box-shadow: 4px 4px 5px 1px #888;
+    margin: 0;
+    margin-top: 10px;
 }
 
 img {
     height: 300px;
     width: 450px;
     margin: 10px;
+
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
